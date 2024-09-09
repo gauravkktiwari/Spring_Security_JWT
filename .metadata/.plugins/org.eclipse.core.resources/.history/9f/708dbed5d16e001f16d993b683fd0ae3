@@ -1,0 +1,16 @@
+spring.application.name=OAuth2_JWT
+
+# MySQL Database Configuration
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/demo3
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+debug=true
+logging.level.org.springframework.security=DEBUG
+
+jwt.signing.key=xf2T5PZ09zzDzb0Sd3Og375tYSL2vCBMaXXfp/glyUQ=
